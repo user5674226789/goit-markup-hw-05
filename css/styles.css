@@ -532,6 +532,10 @@ align-items: baseline;
   margin-left: 16px;
 }
 
+.form-svg {
+  margin-left: 16px;
+}
+
 .modal-div {
   position: fixed;
   top: 0; 
