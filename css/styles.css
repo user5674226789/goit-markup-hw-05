@@ -691,10 +691,10 @@ fill: #ffffff;
   fill: transparent;
 }
 
-.label-span:checked {
-  background-color: #404bbf;
-  border: none;
-}
+input:checked + span {
+  background-color: var(--background-color-checked);
+  border: var(--border-none-checked);
+  fill: var(--fill-color-checked);
 
 .submit-button {
   display: block; 
