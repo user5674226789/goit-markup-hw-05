@@ -691,7 +691,7 @@ fill: #ffffff;
   fill: transparent;
 }
 
-input:checked + span {
+privace-input:checked + label-span {
   background-color: var(--background-color-checked);
   border: var(--border-none-checked);
   fill: var(--fill-color-checked);
