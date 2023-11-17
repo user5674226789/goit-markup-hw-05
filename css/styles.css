@@ -599,7 +599,19 @@ align-items: baseline;
   text-align: center; 
   letter-spacing: 0.02em;
   color: #2E2F42;
-  rgin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
+.form-div {
+  margin-bottom: 8px;
+}
+
+.form-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em; 
+  color: #8e8f99;
+   display: block; 
+  margin-bottom: 4px;
+}
 
