@@ -17,7 +17,7 @@ p {
 }
 
 .container {
-  width: 1158px;
+  width: 1440px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px; 
@@ -511,4 +511,8 @@ align-items: baseline;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
    color: #ffffff;
+}
+
+.form-button {
+  
 }
