@@ -695,6 +695,7 @@ privace-input:checked + label-span {
   background-color: var(--background-color-checked);
   border: var(--border-none-checked);
   fill: var(--fill-color-checked);
+}
 
 .submit-button {
   display: block; 
