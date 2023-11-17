@@ -582,6 +582,6 @@ align-items: baseline;
 
 .modal-button:hover,
 .modal-button:focus {
- color: #404bbf;
+ background-color: #404bbf;
  border: none;
 }
