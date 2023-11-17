@@ -647,7 +647,7 @@ fill: #ffffff;
 }
 
 .form-input-div {
-  
+  margin-bottom: 24px;
 }
 
 .div-textarea {
@@ -672,7 +672,7 @@ fill: #ffffff;
   border-color: #4D5AE5;
 }
 
-label-privacy {
+.label-privacy {
   font-size: 12px; 
   line-height: 1.17;
   letter-spacing: 0.04em;
