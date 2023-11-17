@@ -493,3 +493,8 @@ align-items: baseline;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
