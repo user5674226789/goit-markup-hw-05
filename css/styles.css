@@ -485,6 +485,10 @@ align-items: baseline;
   height: 40px;
 }
 
+.subscribe-div {
+  margin-left: 828px;
+}
+ 
 .subscribe-text {
   margin-bottom: 16px;
   font-weight: 500;
