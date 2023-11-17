@@ -586,4 +586,6 @@ align-items: baseline;
  border: none;
 }
 
-https://user5674226789.github.io/goit-markup-hw-05/
+.modal-svg {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
