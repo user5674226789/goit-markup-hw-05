@@ -664,7 +664,7 @@ fill: #ffffff;
   border-color: #4D5AE5;
 }
 
-.modal-input:focus+.modal-icon {
+.modal-input:focus + .modal-icon {
   fill: #ffffff;
   border-color: #4D5AE5;
 }
