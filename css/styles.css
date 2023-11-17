@@ -691,6 +691,11 @@ fill: #ffffff;
   fill: transparent;
 }
 
+.label-span:checked {
+  background-color: #404bbf;
+  border: none;
+}
+
 .submit-button {
   display: block; 
   min-width: 169px;
@@ -707,3 +712,11 @@ fill: #ffffff;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
+.
+.input-div:focus-within .input-div-svg use {
+    fill: #4D5AE5;
+}
+
+.privace-input:checked {
+ fill: #F4F4FD; 
+   }
