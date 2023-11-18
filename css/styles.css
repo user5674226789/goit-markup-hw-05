@@ -667,7 +667,7 @@ fill: #ffffff;
 }
 
 .div-textarea:focus {
-  color: #404BBF;
+  border-color: #4D5AE5;
 }
 
 .modal-input:focus + .modal-icon {
