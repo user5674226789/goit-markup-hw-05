@@ -697,7 +697,7 @@ fill: #ffffff;
 .privace-input:checked + .label-privacy > .label-span {
   background-color: #404BBf;
   border: none;
-  fill: #FFFFFF;
+  fill: #F4F4FD;
   border-color: #404BBf;
 }
 
