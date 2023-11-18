@@ -664,7 +664,10 @@ fill: #ffffff;
   outline: transparent; 
   resize: none; 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border-color: #4D5AE5;
+}
+
+.div-textarea:focus {
+  color: #404BBF;
 }
 
 .modal-input:focus + .modal-icon {
@@ -691,11 +694,11 @@ fill: #ffffff;
   fill: transparent;
 }
 
-privace-input:checked + label-span {
-  background-color: var(--background-color-checked);
-  border: var(--border-none-checked);
-  fill: var(--fill-color-checked);
-}
+privace-input:checked + .label-privacy > .label-span {
+  background-color: #404BBf;
+  border: none;
+  fill: #FFFFFF;
+  border-color: #404BBf;
 
 .submit-button {
   display: block; 
@@ -721,3 +724,12 @@ privace-input:checked + label-span {
 .privace-input:checked {
  fill: #F4F4FD; 
    }
+
+  .user-input:focus {
+  border-color: #4d5ae5;
+  }
+
+  .user-input:focus + .input-div-svg  {
+    fill: #4d5ae5 
+  }
+  
