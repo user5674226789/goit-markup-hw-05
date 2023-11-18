@@ -92,7 +92,7 @@ gap: 40px;
 
 
 .menu-link {
-  font-size: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -364,7 +364,7 @@ font-family: "Roboto", sans-serif;
 }
 
 .team-list-div {
-backgound-color: #fffff;
+background-color: #fffff;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -701,7 +701,7 @@ privace-input:checked + .label-privacy > .label-span {
   border-color: #404BBf;
 
 .submit-button {
-  display: block; 
+  display: block;
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
@@ -712,25 +712,23 @@ privace-input:checked + .label-privacy > .label-span {
   color: #ffffff;
   cursor: pointer;
   background-color: #4D5AE5;
-  border: none; 
+  border: none;
   border-radius: 4px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-  
 .input-div:focus-within .input-div-svg use {
-    fill: #4D5AE5;
+  fill: #4D5AE5;
 }
 
-.privace-input:checked {
- fill: #F4F4FD; 
-   }
+.privacy-input:checked {
+  fill: #F4F4FD;
+}
 
-  .user-input:focus {
+.user-input:focus {
   border-color: #4d5ae5;
-  }
+}
 
-  .user-input:focus + .input-div-svg  {
-    fill: #4d5ae5 
-  }
-  
+.user-input:focus + .input-div-svg {
+  fill: #4d5ae5;
+}
