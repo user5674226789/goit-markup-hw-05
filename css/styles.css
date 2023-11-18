@@ -699,6 +699,7 @@ privace-input:checked + .label-privacy > .label-span {
   border: none;
   fill: #FFFFFF;
   border-color: #404BBf;
+}
 
 .submit-button {
   display: block;
