@@ -193,6 +193,11 @@ color: #2E2F42;
 .menu-link:focus {
   color: #404bbf;
 }
+
+.address {
+ font-style: normal;
+  margin-left: auto;
+}
   
 .menu-contact {
 display: flex;
