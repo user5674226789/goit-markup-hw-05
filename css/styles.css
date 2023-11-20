@@ -163,6 +163,12 @@ color: #2E2F42;
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
+  .page-header-container{
+  display: flex;
+  align-items: center
+}
+
   
 .page-navigator {
   display: flex;
@@ -191,9 +197,24 @@ color: #2E2F42;
 .menu-contact {
 display: flex;
 gap: 12px;
-
 }
 
+.menu-contact:hover,
+.menu-contact:focus {
+  color: #404bbf;
+  
+.contact-information {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-information:hover,
+.contact-information:focus {
+  color: #404bbf;
+}
 }
   
 @media screen and (min-width: 1158px) {
