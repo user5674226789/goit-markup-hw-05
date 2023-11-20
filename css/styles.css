@@ -157,7 +157,7 @@ color: #2E2F42;
   display: none;
 }
 
-.menu-link {
+.list-container {
   display: flex;
   align-items: center;
   gap: 40px;
