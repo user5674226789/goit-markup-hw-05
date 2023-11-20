@@ -46,6 +46,11 @@ a {
   align-items: center;
 }
 
+page-header-container{
+  display: flex;
+  align-items: center
+}
+
  .current::after {
  content:"";
  position: absolute; 
