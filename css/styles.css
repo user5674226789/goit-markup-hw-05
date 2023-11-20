@@ -198,6 +198,8 @@ color: #2E2F42;
 .address {
  font-style: normal;
   margin-left: auto;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
   
 .menu-contact {
