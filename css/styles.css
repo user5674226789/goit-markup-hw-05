@@ -68,10 +68,6 @@ body {
   display: none;
 }
 
-.address {
-  display: none;
-}
-
 .page-header-container {
  display: flex;
  align-items: center;
@@ -110,6 +106,10 @@ color: #2E2F42;
   transition: transform 250ms linear;
 }
 
+.address {
+  display: none;
+}
+  
 .mobile-menu-container {
   position: relative;
 }
@@ -153,6 +153,11 @@ color: #2E2F42;
   display: none;
 }
 
+.mobile-open-button-svg {
+   display: none;
+}
+}
+  
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
