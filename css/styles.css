@@ -77,6 +77,7 @@ letter-spacing: 0.03em;
 color: #4D5AE5;
 padding: 17px;
 font-family: "Raleway", sans-serif;
+margin-right: 76px;
 }
 
 
@@ -166,7 +167,7 @@ color: #2E2F42;
 
   .page-header-container{
   display: flex;
-  align-items: center
+  align-items: center;
 }
 
   
