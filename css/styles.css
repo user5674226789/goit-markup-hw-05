@@ -166,8 +166,6 @@ color: #2E2F42;
   
 .page-header-container {
      display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
   
 }
