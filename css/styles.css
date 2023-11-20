@@ -111,7 +111,7 @@ color: #2E2F42;
 }
 
 .mobile-menu-container {
-  postion: relative;
+  position: relative;
 }
 
 .mobile-menu.is-open {
@@ -158,4 +158,5 @@ color: #2E2F42;
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+  }
   }
