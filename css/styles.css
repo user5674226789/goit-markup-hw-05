@@ -221,6 +221,23 @@ gap: 12px;
 .contact-information:hover,
 .contact-information:focus {
   color: #404bbf;
+
+
+
+  .page-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+  text-align: center;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 36px;
+  }
 }
 }
   
