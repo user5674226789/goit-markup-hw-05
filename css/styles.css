@@ -159,8 +159,8 @@ color: #2E2F42;
 
 .list-container {
   display: flex;
-  align-items: center;
   gap: 40px;
+  margin-right: 0;
 }     
 }
   
