@@ -113,11 +113,11 @@ color: #2E2F42;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%
+  height: 100%;
   z-index: 99999999999;
   background-color: #FFF;
   transform: translateX(90%);
-  transform: translate 250ms linear;
+  transition: transform 250ms linear;
 }
 
 .mobile-menu-container {
