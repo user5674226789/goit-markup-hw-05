@@ -311,6 +311,11 @@ gap: 12px;
 .button:focus {
   background-color: #404bbf;
 }
+
+.second-list {
+ width: calc((100% - 36px) / 2);  
+}
+  
 }
   
 @media screen and (min-width: 1158px) {
