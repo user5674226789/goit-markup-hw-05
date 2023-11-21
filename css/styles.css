@@ -103,8 +103,7 @@ color: #2E2F42;
 }
 
 .page-navigator {
-  margin-top: 17;
-  margin-bottom: 17;
+ display: flex;
  }
   
   .mobile-menu {
