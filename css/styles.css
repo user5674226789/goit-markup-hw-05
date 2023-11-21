@@ -277,7 +277,18 @@ letter-spacing: 0.48px;
   line-height: 0;
 }
 
-  .list-title {
+  .icons-div {
+    display: none;
+  }
+
+.section-list {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+  gap: 72px;
+}
+  
+   .list-title {
   margin-bottom: 8px;
   font-family: Roboto;
   font-size: 36px;
@@ -293,17 +304,6 @@ font-size: 16px;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.32px;
-}
-
-  .icons-div {
-    display: none;
-  }
-
-.section-list {
-  flex-direction: column;
-  align-items: flex-start;
-  display: flex;
-  gap: 72px;
 }
 }
 
