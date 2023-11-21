@@ -125,6 +125,15 @@ color: #2E2F42;
   color: #404bbf;
 }
 
+.menu-contact {
+font-family: "Roboto", sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0.48px;
+}
+
+
  .page-title {
   font-family: "Roboto", sans-serif;
   font-size: 56px;
@@ -163,13 +172,40 @@ color: #2E2F42;
   background-color: #404bbf;
 }
 
-.menu-contact {
-font-family: "Roboto", sans-serif;
-font-size: 12px;
-font-weight: 400;
-line-height: 14px;
-letter-spacing: 0.48px;
+.second-section {
+ padding-top: 120px; 
+ padding-bottom: 120px;
 }
+
+.list-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height:  1.2;
+  letter-spacing: 0.02em; 
+  color: #2e2f42;
+  margin-bottom: 8px;
+  
+}
+
+.list-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.icons-div {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd; 
+  border-radius: 4px;
+  margin-bottom: 8px;
 
 @media screen and (max-width: 767px) {
   
@@ -247,28 +283,8 @@ letter-spacing: 0.48px;
   margin-right: 0;
 }     
 
-}
-
 .menu-link:hover,
 .menu-link:focus {
-  color: #404bbf;
-}
-
-.address {
- font-style: normal;
-  margin-left: auto;
-  padding-top: 18px;
-  padding-bottom: 18px;
-}
-  
-.menu-contact {
-display: flex;
-flex-direction: column-reverse;
-gap: 12px;
-}
-
-.menu-contact:hover,
-.menu-contact:focus {
   color: #404bbf;
 }
   
