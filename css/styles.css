@@ -90,6 +90,14 @@ color: #2E2F42;
 }
 
 @media screen and (max-width: 767px) {
+
+.page-header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+  
   .mobile-menu {
   position: fixed;
   top: 0;
@@ -141,8 +149,8 @@ color: #2E2F42;
     max-width: 768px;
   }
 
-  .menu {
-    display: flex;
+.menu {
+  display: flex;
 }
 
 .mobile-menu {
