@@ -307,9 +307,9 @@ letter-spacing: 0.48px;
   align-items: flex-start;
   display: flex;
   gap: 72px;
-  width: calc((100% - 36px) / 2);
 }
 }
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
