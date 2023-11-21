@@ -411,8 +411,8 @@ letter-spacing: 0.32px;
 }
 
 .menu-contact {
-  flex-direction: row;
-  gap: 40px;
+ display: flex;
+ gap: 40px;
 }
 
  .section-list {
@@ -423,8 +423,7 @@ letter-spacing: 0.32px;
 
 }
 
-
-   .list-title {
+  .list-title {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
