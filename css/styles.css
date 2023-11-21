@@ -102,6 +102,10 @@ color: #2E2F42;
   justify-content: space-between;
 }
 
+.page-navigator {
+  margin-top: 17;
+  margin-bottom: 17;
+ }
   
   .mobile-menu {
   position: fixed;
@@ -147,6 +151,27 @@ color: #2E2F42;
   padding: 0;
   line-height: 0;
 }
+
+.logotype {
+font-size: 18px;
+font-weight: 700;
+line-height: 0.86;
+letter-spacing: 0.03em;
+color: #4D5AE5;
+padding: 17px;
+font-family: "Raleway", sans-serif;
+margin-right: 76px;
+}
+
+
+.logotype-span {
+font-size: 18px;
+font-weight: 700;
+line-height: 0.86;
+letter-spacing: 0.03em;
+color: #2E2F42;
+}
+  
 }
 
 @media screen and (min-width: 768px) {
