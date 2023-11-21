@@ -276,11 +276,6 @@ letter-spacing: 0.48px;
   padding: 0;
   line-height: 0;
 }
-
-.second-list {
- width: calc((100% - 36px) / 2);  
-}
-  
 }
 
 @media screen and (min-width: 768px) {
@@ -362,8 +357,10 @@ letter-spacing: 0.48px;
   background-color: #404bbf;
 }
 
-.second-list {
- width: calc((100% - 36px) / 2);  
+.section-list {
+ width: calc((100% - 36px) / 2);
+  display: flex;
+  margin-bottom: 0;
 }
 }
   
