@@ -233,6 +233,16 @@ letter-spacing: 0.48px;
     fill: #f4f4fd;
 }
 
+.list-div {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.section-list {
+display: flex;
+    gap: 24px;
+    margin-bottom: 0;
+}
+
 @media screen and (max-width: 767px) {
   .section {
  background-color: #2e2f42;
@@ -295,7 +305,7 @@ letter-spacing: 0.48px;
     display: none;
   }
 
-.section-list {
+.second-section-list {
   flex-direction: column;
   align-items: flex-start;
   display: flex;
