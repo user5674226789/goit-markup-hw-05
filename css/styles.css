@@ -188,6 +188,16 @@ letter-spacing: 0.48px;
  padding-bottom: 120px;
 }
 
+.icons-div {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd; 
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 .list-title {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -209,18 +219,8 @@ letter-spacing: 0.48px;
   letter-spacing: 0.02em;
 }
 
-.icons-div {
-  display: flex; 
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  background-color: #f4f4fd; 
-  border-radius: 4px;
-  margin-bottom: 8px;
-}
-
 @media screen and (max-width: 767px) {
-  .section {
+ .section {
  background-color: #2e2f42;
  padding-top: 112px;
  padding-bottom: 112px;
@@ -286,25 +286,6 @@ letter-spacing: 0.48px;
   align-items: flex-start;
   display: flex;
   gap: 72px;
-}
-  
-   .list-title {
-  margin-bottom: 8px;
-  font-family: Roboto;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-}
-
-.list-text {
-font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.32px;
-}
 }
 
 @media screen and (min-width: 768px) {
@@ -426,4 +407,26 @@ letter-spacing: 0.32px;
   flex-direction: row;
   gap: 40px;
 }
+
+  .list-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height:  1.2;
+  letter-spacing: 0.02em; 
+  color: #2e2f42;
+  margin-bottom: 8px;
+  
+}
+
+.list-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+  
 }
