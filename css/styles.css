@@ -404,7 +404,8 @@ letter-spacing: 0.32px;
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-  
+}
+ 
 .second-list {
  width: calc((100% - 72px) / 4);  
 }
@@ -422,10 +423,8 @@ letter-spacing: 0.32px;
 
 }
 
-  .second-list {
- width: calc((100% - 72px) / 4);
-}
-     .list-title {
+
+   .list-title {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
