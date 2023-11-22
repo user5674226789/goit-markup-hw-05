@@ -245,10 +245,27 @@ display: flex;
     margin-bottom: 0;
 }
 
-display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
+.team-list-title {
+font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-list-text {
+font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+    text-align: center;
+  width: 264px;
+}
 
 @media screen and (max-width: 767px) {
   .section {
