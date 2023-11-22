@@ -356,6 +356,34 @@ font-family: "Roboto", sans-serif;
   line-height: 0;
 }
 
+  .mobile-menu-navigator {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .mobile-address {
+    color: var(--IRIS, #4D5AE5);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+  }
+
+  .mobile-menu-contact{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 24px;
+}
+
+  mobile-contact-list {
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  
   .mobile-menu-link {
     color: #2E2F42;
     font-family: Roboto;
@@ -365,6 +393,27 @@ font-family: "Roboto", sans-serif;
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+  }
+  
+   .mobile-social-media-list {
+    margin: 48px 0 30px;
+    justify-content: space-between;
+}
+
+  .mobile-social-list-li {
+    width: 40px;
+    height: 40px;
+  }
+
+  .mobile-social-menu-links {
+    width: 44px;
+    height: 44px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .icons-div {
