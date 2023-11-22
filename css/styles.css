@@ -267,6 +267,13 @@ font-family: "Roboto", sans-serif;
   width: 264px;
 }
 
+.section-team-list{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 0;
+    flex-direction: column;
+}
+
 @media screen and (max-width: 767px) {
   .section {
  background-color: #2e2f42;
@@ -445,7 +452,7 @@ letter-spacing: 0.32px;
   background-color: #404bbf;
 }
 
-.section-team-list {
+.section-team-list{
     display: flex;
     gap: 24px;
     margin-bottom: 0;
