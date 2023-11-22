@@ -489,7 +489,7 @@ letter-spacing: 0.32px;
     gap: 24px;
 }
 
-  section-team-list {
+.section-team-list {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
@@ -541,6 +541,12 @@ letter-spacing: 0.32px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
+  .section-team-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
 }
 }
 
