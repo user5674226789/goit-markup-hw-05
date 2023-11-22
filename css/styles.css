@@ -267,7 +267,7 @@ font-family: "Roboto", sans-serif;
   width: 264px;
 }
 
-.section-team-list{
+.section-team-list {
     display: flex;
     gap: 24px;
     margin-bottom: 0;
