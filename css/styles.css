@@ -480,6 +480,22 @@ letter-spacing: 0.32px;
   line-height: 24px;
   letter-spacing: 0.32px;
 }
+
+  .second-section-list {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px;
+}
+
+  section-team-list {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px;
+  }
 }
   
 @media screen and (min-width: 1158px) {
