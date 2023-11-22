@@ -348,13 +348,24 @@ font-family: "Roboto", sans-serif;
   
   .mobile-menu-close-button {
   position: absolute;
-  top: 0;
+  top: 24;
   right: 0;
   border: none;
   background-color: transparent;
   padding: 0;
   line-height: 0;
 }
+
+  .mobile-menu-link {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
 
   .icons-div {
     display: none;
