@@ -294,6 +294,10 @@ font-family: "Roboto", sans-serif;
    column-gap: 24px;
 }
 
+.section-team-list  {
+ background-color: #FFFFFF;
+}
+
 @media screen and (max-width: 767px) {
   .section {
  background-color: #2e2f42;
