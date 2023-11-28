@@ -566,21 +566,23 @@ letter-spacing: 0.32px;
 }
   
 .list-title {
-    margin-bottom: 8px;
-    font-family: Roboto;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
-  }
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height:  1.2;
+  letter-spacing: 0.02em; 
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
 
 .list-text {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+ font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
 }
 
   .second-section-list {
@@ -598,6 +600,11 @@ letter-spacing: 0.32px;
     align-items: center;
     gap: 24px;
   }
+
+.img {
+  width: 288px;
+}
+  
 }
   
 @media screen and (min-width: 1158px) {
