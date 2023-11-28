@@ -386,7 +386,27 @@ font-family: "Roboto", sans-serif;
   mobile-contact-list {
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
+
+
+  .first-section-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.32px;
+  }
+
+  .first-section-text {
+    font-family: Roboto;
+     font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+  }
   
   .mobile-menu-link {
     color: #2E2F42;
