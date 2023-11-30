@@ -586,7 +586,27 @@ letter-spacing: 0.32px;
 .second-list {
  width: calc((100% - 72px) / 2);  
 }
-  
+
+ .first-section-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.32px;
+  }
+
+  .first-section-title {
+    font-family: Roboto;
+     font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+  }
+
 .list-title {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
