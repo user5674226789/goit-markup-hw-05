@@ -646,7 +646,6 @@ letter-spacing: 0.32px;
 .img {
   width: 288px;
 }
-  
 }
   
 @media screen and (min-width: 1158px) {
@@ -723,6 +722,9 @@ letter-spacing: 0.32px;
     display: flex;
     align-items: center;
     gap: 24px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
   }
 }
 
