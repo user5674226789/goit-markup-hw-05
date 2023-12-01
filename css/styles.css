@@ -654,6 +654,15 @@ letter-spacing: 0.32px;
 .img {
   width: 288px;
 }
+
+.fourth-section-list {
+ display: flex ;
+ justify-content: center;
+ flex-wrap: row;
+ gap: 24;
+ colomn-gap: 64;
+}
+}
 }
   
 @media screen and (min-width: 1158px) {
