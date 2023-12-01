@@ -485,7 +485,6 @@ letter-spacing: 0.32px;
 @media screen and (min-width: 768px) {
 
 .fourth-list {
-  width: calc((100% - 48px) / 3);
    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -652,12 +651,17 @@ letter-spacing: 0.32px;
 }
 
 .fourth-section-list {
- display: flex ;
- justify-content: center;
- flex-wrap: row;
- gap: 24;
- colomn-gap: 64;
+    margin: 0 auto;
+    display: grid;
+    flex-direction: column;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
 }
+
+.fourth-list {
+    width: calc((100% - 48px) / 2);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 }
   
