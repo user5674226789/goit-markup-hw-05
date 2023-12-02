@@ -775,8 +775,9 @@ letter-spacing: 0.32px;
   }
   
   .fourth-section-list {
-    display: flex;
-    justify: content;
+   display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 }
 
