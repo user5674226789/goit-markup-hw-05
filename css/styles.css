@@ -508,6 +508,7 @@ letter-spacing: 0.32px;
     flex-direction: column;
     gap: 24px;
     justify-content: center;
+    align-content: center;
 }
 }
 
