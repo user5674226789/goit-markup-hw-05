@@ -9,10 +9,6 @@ p {
   margin-bottom: 0;
 }
 
-div {
- display: block;
-}
-
 ul,
 ol {
   margin-top: 0;
@@ -334,12 +330,10 @@ font-family: "Roboto", sans-serif;
 
 .footer-logotype-span {
   color: #ffffff;
+  text-align: center;
 }
 
-.footer-div {
-  margin-right: 120px;
-  /* display: flex; */
-}
+
 
 .logotype-text {
   letter-spacing: 0.02em;
@@ -349,20 +343,24 @@ font-family: "Roboto", sans-serif;
 
 .second-logotype {
    font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4D5AE5;
-  display: inline-block;
-  margin-bottom: 16px
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #4D5AE5;
+   display: inline-block;
+   margin-bottom: 16px;
+   margin-left: 80px;
+   margin-right: 80px;
+   text-align: center;
  }
 
 .social-media-list {
   display: flex;
   gap: 16px;
+  justify-content: center;
 }
 
 .social-list-li {
@@ -371,16 +369,18 @@ font-family: "Roboto", sans-serif;
 }
 
 .subscribe-div {
-  margin-left: 80px;
+  /* margin-left: 80px; */
 }
  
 .subscribe-text {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5; 
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-top: 72px;
+  text-align: center;
 }
 
 .footer-form {
@@ -635,6 +635,33 @@ font-family: "Roboto", sans-serif;
     justify-content: center;
     align-content: center;
 }
+
+
+ .flex {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  flex-direction: column;
+ } 
+
+ .footer-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #FFF;
+    margin-bottom: 16px;
+    margin-top: 72px;
+ }
+
+  .footer-form {
+    display: flex;
+    gap: 24px;
+   flex-direction: column ;
+   align-items: center;
+}
 }
 
 @media screen and (min-width: 768px) {
@@ -819,6 +846,22 @@ font-family: "Roboto", sans-serif;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+ .flex {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+ .footer-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #FFF;
+    text-align: center;
+}
 }
   
 @media screen and (min-width: 1158px) {
@@ -910,5 +953,17 @@ font-family: "Roboto", sans-serif;
   display: flex;
   align-items: baseline;
  }
- 
+
+  .footer-div {
+  margin-right: 120px;
+  }
+   
+ .subscribe-div {
+    margin-left: 80px
+ }
+
+ .footer-form {
+    display: flex;
+    gap: 24px;
+}
 }
