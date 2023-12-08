@@ -754,6 +754,8 @@ fill: #ffffff;
    .mobile-social-media-list {
     margin: 48px 0 30px;
     justify-content: space-between;
+    display: flex;
+    gap: 24px;
 }
 
   .mobile-social-list-li {
