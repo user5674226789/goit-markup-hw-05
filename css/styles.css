@@ -586,6 +586,14 @@ fill: #ffffff;
   text-decoration: underline;
 }
 
+@media screen and (min-resolution: 192px),
+ screen and (min-resolution: 2dppx),
+ screen and (min-divice-pixel-ratio: 2) {
+   .section {
+     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg@2x.jpg);
+   }
+ }
+
 @media screen and (max-width: 767px) {
   .section {
  background-color: #2e2f42;
