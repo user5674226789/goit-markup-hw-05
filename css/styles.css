@@ -1010,7 +1010,7 @@ fill: #ffffff;
 }
 
 .second-list {
- width: calc((100% - 24px) / 2);  
+ width: calc((100% - 72px) / 2);  
 }
 
  .first-section-text {
@@ -1027,11 +1027,9 @@ fill: #ffffff;
      font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px; 
+    line-height: 40px; /* 111.111% */
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    margin-bottom: 8px;
-}
   }
 
 .list-title {
@@ -1060,9 +1058,10 @@ fill: #ffffff;
 
   .second-section-list {
     display: flex;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
     align-items: center;
-    gap: 24px 72px;
+    gap: 24px;
     justify-content: center;
 }
 
@@ -1071,7 +1070,7 @@ fill: #ffffff;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    gap: 24px;
+    gap: 64px 24px;
     justify-content: center;
 }
 
@@ -1079,7 +1078,6 @@ fill: #ffffff;
   border-radius: 0px 0px 4px 4px;
   background-color: #FFF;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  margin-bottom: 64px;
 }
 
 
@@ -1087,14 +1085,13 @@ fill: #ffffff;
     margin: 0 auto;
     display: grid;
     flex-direction: column;
-    gap: 24px;
+    gap: 24px 72px;
     grid-template-columns: repeat(2, 1fr);
 }
 
 .fourth-list {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-bottom: 72px;
 }
 
  .flex {
