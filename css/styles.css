@@ -69,7 +69,17 @@ body {
 }
 
 
-.logotype {font-size: 18px;font-weight: 700;line-height: 0.86;letter-spacing: 0.03em;color: #4D5AE5;padding: 17px 0px;font-family: "Raleway", sans-serif;margin-right: 76px;}
+.logotype {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 0.86;
+  letter-spacing: 0.03em;
+  color: #4D5AE5;
+  padding: 17px 0px;
+  font-family: "Raleway", sans-serif;
+  margin-right: 76px;
+  text-transform: uppercase;
+}
 
 
 .logotype-span {
