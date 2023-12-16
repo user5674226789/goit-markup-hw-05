@@ -1,4 +1,4 @@
-1,
+h1,
 h2,
 h3,
 h4,
@@ -1297,6 +1297,7 @@ fill: #ffffff;
   background-color: #f4f4fd; 
   border-radius: 4px;
   margin-bottom: 8px;
+  }
 
   .second-logotype {
   font-family: "Raleway", sans-serif;
