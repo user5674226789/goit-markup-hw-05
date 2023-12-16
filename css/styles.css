@@ -1247,9 +1247,10 @@ fill: #ffffff;
   }
   
   .fourth-section-list {
-   display: flex;
+    display: flex;
     justify-content: center;
     flex-direction: row;
+    gap: 72px 24px;
 }
 
  .flex {
