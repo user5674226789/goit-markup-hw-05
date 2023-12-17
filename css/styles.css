@@ -649,12 +649,20 @@ fill: #ffffff;
   
   .mobile-menu-close-button {
   position: absolute;
-  top: 23px;
+  top: 24px;
   right: 0;
   border: none;
   background-color: transparent;
   padding: 0;
   line-height: 0;
+  position: absolute;
+  top: 24px;
+  right: 0;
+  /* left: 8px; */
+  background-color: transparent;
+  padding: 0%;
+  line-height: 0%;
+  border: none;
 }
 
   .mobile-menu-navigator {
@@ -665,7 +673,7 @@ fill: #ffffff;
   }
 
   .mobile-address {
-    color: var(--IRIS, #4D5AE5);
+    /* color: #434455; */
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -741,6 +749,15 @@ fill: #ffffff;
     display: flex;
     gap: 24px;
 }
+
+ .contact-information {
+  color: #434455;
+ }
+
+ .contact-information:hover,
+ .contact-information:focus {
+   color:#4D5AE5;
+ }
 
   .mobile-social-list-li {
     width: 40px;
@@ -1398,5 +1415,3 @@ fill: #ffffff;
    ), url(./images/dark-bg-desktop-version@2.jpg);
     }
     }
-  
-
