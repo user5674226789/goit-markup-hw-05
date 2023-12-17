@@ -32,6 +32,10 @@ a {
   text-decoration: none;
 }
 
+.mobile-social-svg {
+  fill: #f4f4fd;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #FFFFFF;
