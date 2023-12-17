@@ -746,6 +746,11 @@ fill: #ffffff;
     letter-spacing: 0.72px;
     text-transform: capitalize;
   }
+
+ .mobile-menu-link:hover,
+ .mobile-menu-link:focus {
+  color: #4d5AE5;
+ }
   
    .mobile-social-media-list {
     margin: 48px 0;
