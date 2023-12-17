@@ -127,13 +127,7 @@ color: #2E2F42;
   color: #404bbf;
 }
 
-.menu-contact {
-font-family: "Roboto", sans-serif;
-font-size: 12px;
-font-weight: 400;
-line-height: 14px;
-letter-spacing: 0.48px;
-}
+.menu-contact {font-family: "Roboto", sans-serif;font-size: 12px;font-weight: 400;line-height: 14px;letter-spacing: 0.48px;display:  flex;flex-direction: column;gap: 12px;}
 
 .section {
  background-color: #2e2f42;
@@ -1124,7 +1118,7 @@ fill: #ffffff;
     line-height: 1.5;
     max-width: 264px;
     margin-right: 24px;
-    margin-left: 108px;
+    /* margin-left: 108px; */
 }
 
  .subscribe-text {
@@ -1135,7 +1129,7 @@ fill: #ffffff;
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-top: 72px;
-    margin-left: 108px;
+    /* margin-left: 108px; */
 }
 
  .subscribe-input {
@@ -1150,7 +1144,7 @@ fill: #ffffff;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     color: #ffffff;
-    margin-left: 108px;
+    /* margin-left: 108px; */
 }
 
 .second-logotype {
@@ -1164,7 +1158,7 @@ fill: #ffffff;
     color: #4D5AE5;
     display: inline-block;
     margin-bottom: 16px;
-    margin-left: 108px;
+    /* margin-left: 108px; */
 }
 }
   
@@ -1208,6 +1202,7 @@ fill: #ffffff;
 .menu-contact {
  display: flex;
  gap: 40px;
+ flex-direction: row;
 }
 
  .section-list {
@@ -1258,6 +1253,7 @@ fill: #ffffff;
     display: flex;
     align-items: baseline;
     flex-wrap: nowrap;
+    gap: 0;
  }
 
   .footer-div {
