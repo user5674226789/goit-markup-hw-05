@@ -653,20 +653,15 @@ fill: #ffffff;
   
   .mobile-menu-close-button {
   position: absolute;
-  top: 24px;
-  right: 0;
-  border: none;
-  background-color: transparent;
-  padding: 0;
-  line-height: 0;
-  position: absolute;
-  top: 24px;
-  right: 0;
-  /* left: 8px; */
-  background-color: transparent;
-  padding: 0%;
-  line-height: 0%;
-  border: none;
+    top: 24px;
+    right: 16px;
+    display: flex;
+    height: 24px;
+    width: 24px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
   .mobile-menu-navigator {
