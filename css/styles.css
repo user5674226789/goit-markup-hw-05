@@ -590,16 +590,28 @@ fill: #ffffff;
 .label-link {
   text-decoration: underline;
 }
-
-@media screen and (min-resolution: 192px),
- screen and (min-resolution: 2dppx),
- screen and (min-divice-pixel-ratio: 2) {
-   .section {
-     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg@2x.jpg);
-   }
- }
+  
 
 @media screen and (max-width: 767px) {
+
+    @media screen and max-width: 767px) {
+.section {    
+    background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+   ), url(./images/dark-bg-mobile-version.jpg);
+    }
+    
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+   .section {
+    background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+   ), url(./images/dark-bg-mobile-version@2.jpg);
+    }
+    }
   .section {
  background-color: #2e2f42;
  padding-top: 112px;
@@ -910,6 +922,25 @@ fill: #ffffff;
 
 @media screen and (min-width: 768px) {
 
+
+  @media screen and (min-width: 768px) {
+.section {    
+    background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+   ), url(./images/dark-bg-tablet-version.jpg);
+    }
+    
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+   .section {
+    background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+   ), url(./images/dark-bg-tablet-version@2.jpg);
+    }
+    }
 .fourth-list {
    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1163,6 +1194,24 @@ fill: #ffffff;
 }
   
 @media screen and (min-width: 1158px) {
+  @media screen and (min-width: 1158px) {
+.section {    
+    background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+   ), url(./images/dark-bg-desctop-version.jpg);
+    }
+    
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+   .section {
+    background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+   ), url(./images/dark-bg-desktop-version@2.jpg);
+    }
+    }
 
 .fourth-list {
   width: calc((100% - 48px) / 3);
